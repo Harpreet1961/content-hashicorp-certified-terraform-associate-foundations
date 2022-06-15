@@ -21,6 +21,8 @@ variable "rules" {
       cidr_blocks = ["6.7.8.9/32"]
     }
   ]
-
+variable "test" {
+  type = string
+  default = "hello"
 
 }
